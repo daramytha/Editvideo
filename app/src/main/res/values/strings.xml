@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Editor</string>
+    
+    <!-- Teks di Editor -->
+    <string name="btn_rotate">Rotasi</string>
+    <string name="btn_export">Ekspor</string>
+    <string name="btn_go_to_export">Ekspor Video</string>
+    <string name="label_brightness">Kecerahan</string>
+    
+    <!-- Teks di Halaman Ekspor -->
+    <string name="export_settings">Pengaturan Ekspor</string>
+    <string name="label_resolution">Resolusi</string>
+    <string name="label_fps">Tingkat Bingkai</string>
+    <string name="label_bitrate">Bitrate (Mbps)</string>
+    <string name="estimated_size_default">Perkiraan ukuran file: 0 MB</string>
+    
+    <!-- Pesan Toast -->
+    <string name="msg_processing">Memproses video...</string>
+    <string name="msg_export_success">Sukses! Tersimpan di: %1$s</string>
+    <string name="msg_export_failed">Gagal: %1$s</string>
+    <string name="msg_video_rotated">Video dirotasi</string>
+</resources>
