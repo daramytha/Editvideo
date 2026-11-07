@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VideoEditor" parent="Theme.Material3.Dark.NoActionBar">
+        
+        <!-- Warna Utama (Primary) -->
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorPrimaryDark">@color/bg_dark_primary</item>
+        <item name="colorAccent">@color/accent_cyan</item>
+        
+        <!-- Warna Background -->
+        <item name="android:windowBackground">@color/bg_dark_primary</item>
+        <item name="android:statusBarColor">@color/bg_dark_primary</item>
+        <item name="android:navigationBarColor">@color/bg_dark_primary</item>
+        
+        <!-- Warna Teks Default -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Styling untuk tombol bawaan Material -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <!-- Custom Style untuk Tombol -->
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>
