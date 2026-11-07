@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan Ekspor"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExportTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ekspor"
+            android:backgroundTint="#00BCD4"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resolusi"
+        android:textColor="#FFF"
+        android:layout_marginTop="24dp"/>
+
+    <SeekBar
+        android:id="@+id/sbResolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="4"
+        android:progress="2"
+        android:progressTint="#00BCD4"/>
+
+    <TextView
+        android:id="@+id/tvEstimatedSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perkiraan ukuran file: 0 MB"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:layout_marginTop="48dp"
+        android:textSize="16sp"/>
+</LinearLayout>
